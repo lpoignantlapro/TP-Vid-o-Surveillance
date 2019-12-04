@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#ifndef CameraH
+#define CameraH
+#include "RS232.h"
+#include "trame.h"
+//---------------------------------------------------------------------------
+
+class Camera
+{
+
+  private :
+
+	int Position;
+
+  public :
+
+	 Camera();
+	 ~Camera();
+	 void ZoomMoins();
+	 void ZoomStop();
+	 void ZoomPlus();
+	 void Gauche();
+	 void Droite();
+	 void Bas();
+	 void Haut();
+	 void Auto();
+
+};
+#endif

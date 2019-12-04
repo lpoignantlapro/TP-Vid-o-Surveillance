@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#ifndef CameraH
+#define CameraH
+//---------------------------------------------------------------------------
+
+class Camera{
+
+  private:
+	int Position;
+    Camera * Trame;
+  public:
+	 Camera();
+	 ~Camera();
+	 void ZoomMoins();
+	 void ZoomStop();
+	 void ZoomPlus();
+	 void Gauche();
+	 void Droite();
+	 void Bas();
+	 void Haut();
+	 void Auto();
+
+
+
+
+
+
+};
+#endif
